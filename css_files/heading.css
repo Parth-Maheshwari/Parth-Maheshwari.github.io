@@ -1,0 +1,10 @@
+* {
+	background-color: black;
+	color: grey;
+}
+
+h1 {
+	font-size: 80px;
+	font-style: oblique;
+	font-family: monospace;
+}
