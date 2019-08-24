@@ -73,7 +73,6 @@ aside {
     display: grid;
     grid-template-columns: 20% 80%;
     grid-gap: 1em;
-
 }
 
 input[type="submit"] {
