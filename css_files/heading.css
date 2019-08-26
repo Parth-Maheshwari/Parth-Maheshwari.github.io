@@ -12,13 +12,12 @@ header {
     background-image: url("../graphics/bg3.png");
     background-attachment: fixed;
     background-size: cover;
-    width: 1200px;
+    width: 89%;
 	font-size: 40px;
     text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
     position: fixed;
     z-index: +1;
-    margin-right: auto;
 }   
 
 .foot{
@@ -26,20 +25,20 @@ header {
     grid-template-columns: repeat(4, 25%);
     padding-left: 20%;
     text-align:justify;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     float:bottom;
     font-size:20px;
 }
 
-footer div a:hover{
+footer section a:hover{
     color: #83b562;
 }
 
 
 .bars { display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 70% 10%;
     grid-template-rows: minmax(500px, auto);
-    padding-left: 10px;
+    padding-left: 0%;
     text-align:justify;
     padding-top: 5%;
     overflow-x: hidden;
@@ -53,10 +52,10 @@ a{
 #diff_tcolor{
     color: #83b562;
 }
-div[class="bars"] > div > ul > li{
+section[class="bars"] > section > ul > li{
     line-height: 2em;
     list-style: none;
-    padding-right: 10%;
+    padding-right:5%;
     font-size:20px;
     text-align: left;
 }
@@ -64,16 +63,18 @@ div[class="bars"] > div > ul > li{
     display: grid;
     grid-template-columns: repeat(2, 50%);
     text-align:center;
-    margin-bottom: 20px;
     font-size:20px;
 }
 
+.indihobby{
+        margin-bottom: 5%;
+}
 .formed{
     font-size:20px;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
     grid-gap: 1em;
-    font-size:20px;
+    padding-left: 10%;
 }
 
 input[type="submit"] {
@@ -103,14 +104,28 @@ input[type="reset"]:hover {
 }
 
 .nested{
-    padding-left: 0%;
-    position: left fixed;
+    position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
     overflow-x: hidden;
+    width: 15%;
 }
 
+.frames{
+    width: 70%;
+    height: 70%;
+}
 textarea {
    resize: none;
+   width: 80%;
+   height: 100%;
+   font-size: 15px;
+}
+
+#name{
+    size=40;
+    font-size:15px;
+}
+
+p{
+    font-size: 20px;
 }
