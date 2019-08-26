@@ -13,7 +13,7 @@ header {
     background-attachment: fixed;
     background-size: cover;
     width: 1200px;
-	font-size: 40px;
+    font-size: 40px;
     text-align: right;
     margin-bottom: 10px;
     position: fixed;
@@ -37,7 +37,7 @@ footer div a:hover{
 
 
 .bars { display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 25% 75%;
     grid-template-rows: minmax(500px, auto);
     padding-left: 10px;
     text-align:justify;
@@ -103,14 +103,9 @@ input[type="reset"]:hover {
 }
 
 .nested{
-    padding-left: 0%;
-    position: left fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
+    position: fixed;
+    width: 100%;
 }
-
 textarea {
-   resize: none;
+ resize: none;
 }
