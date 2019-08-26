@@ -1,14 +1,20 @@
-* {
-	background-color: black;
-	color: #a89f9e;
+
+body{
+    background-image: url("../graphics/bg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity:1;
+    color: #ddd;
+    font-family: Palatino, 'Palatino Linotype', serif;
 }
 
 header {
 	font-size: 50px;
-	font-family: monospace;
     padding-left: 30px;
     text-align: right;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    position: fixed;
 }   
 
 .foot{
@@ -27,15 +33,16 @@ header {
     padding-left: 10px;
     text-align:justify;
     padding-top: 5%;
+    overflow-x: hidden;
 } 
 
 a{
     text-decoration: none;
-    color: #a89f9e;
+    color: #ddd;
 }
 
 #diff_tcolor{
-    color: #9ea843;
+    color: #83b562;
 }
 div[class="bars"] > div > ul > li{
     line-height: 2em;
@@ -50,22 +57,11 @@ div[class="bars"] > div > ul > li{
     padding-left: 10%;
     text-align:center;
     margin-bottom: 20px;
-    padding-bottom:10px;
-    margin-right: 5%;
     font-size:20px;
 }
 
 h2{
     font-size:20px;
-}
-
-aside { 
-    float:right; 
-    width: 30%; 
-    background-color: beige; 
-    color: black;
-    margin-left: 20px;
-    margin-right: 30px;
 }
 
 .formed{
@@ -85,7 +81,7 @@ input[type="submit"]:hover {
     width: 8em;
     height: 2em;
     font-size:20px;
-    color:#9ea843;
+    color:#83b562;
 }
 
 input[type="reset"] {
@@ -98,7 +94,7 @@ input[type="reset"]:hover {
     width: 8em;
     height: 2em;
     font-size:20px;
-    color:#9ea843;
+    color:#83b562;
 }
 
 .subres{
@@ -106,4 +102,13 @@ input[type="reset"]:hover {
     grid-column-end: 3;
     text-align: justify;
     padding-top: 3%;
+}
+
+.nested{
+    padding-left: 0%;
+    position: left fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
 }
