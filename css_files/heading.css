@@ -1,7 +1,6 @@
 
 body{
-    background-image: url("../graphics/bg2.png");
-    background-repeat: no-repeat;
+    background-image: url("../graphics/bg3.png");
     background-size: cover;
     background-attachment: fixed;
     opacity:1;
@@ -10,11 +9,16 @@ body{
 }
 
 header {
-	font-size: 50px;
-    padding-left: 30px;
+    background-image: url("../graphics/bg3.png");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1200px;
+	font-size: 40px;
     text-align: right;
     margin-bottom: 10px;
     position: fixed;
+    z-index: +1;
+    margin-right: auto;
 }   
 
 .foot{
@@ -24,12 +28,17 @@ header {
     text-align:justify;
     margin-bottom: 20px;
     float:bottom;
-    font-size:25px;
+    font-size:20px;
+}
+
+footer div a:hover{
+    color: #83b562;
 }
 
 
 .bars { display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: minmax(500px, auto);
     padding-left: 10px;
     text-align:justify;
     padding-top: 5%;
@@ -48,19 +57,14 @@ div[class="bars"] > div > ul > li{
     line-height: 2em;
     list-style: none;
     padding-right: 10%;
-    font-size:25px;
+    font-size:20px;
     text-align: left;
 }
 .hobbies{
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    padding-left: 10%;
     text-align:center;
     margin-bottom: 20px;
-    font-size:20px;
-}
-
-h2{
     font-size:20px;
 }
 
@@ -69,6 +73,7 @@ h2{
     display: grid;
     grid-template-columns: 20% 80%;
     grid-gap: 1em;
+    font-size:20px;
 }
 
 input[type="submit"] {
@@ -80,8 +85,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     width: 8em;
     height: 2em;
-    font-size:20px;
     color:#83b562;
+    font-size:20px;
 }
 
 input[type="reset"] {
@@ -93,15 +98,8 @@ input[type="reset"] {
 input[type="reset"]:hover {
     width: 8em;
     height: 2em;
-    font-size:20px;
     color:#83b562;
-}
-
-.subres{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    text-align: justify;
-    padding-top: 3%;
+    font-size:20px;
 }
 
 .nested{
@@ -111,4 +109,8 @@ input[type="reset"]:hover {
     top: 0;
     left: 0;
     overflow-x: hidden;
+}
+
+textarea {
+   resize: none;
 }
